@@ -1,0 +1,6 @@
+/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles/helloworld.dir
+/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory/CMakeFiles/rebuild_cache.dir
+/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory/CMakeFiles/edit_cache.dir
+/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory/CMakeFiles/simpleFactory.dir

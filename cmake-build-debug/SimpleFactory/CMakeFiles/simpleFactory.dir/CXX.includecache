@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bo/CLionProjects/DesignPartterns/simpleFactory/Product.h
+
+/Users/bo/CLionProjects/DesignPartterns/simpleFactory/ProductB.cpp
+ProductB.h
+/Users/bo/CLionProjects/DesignPartterns/simpleFactory/ProductB.h
+iostream
+-
+
+/Users/bo/CLionProjects/DesignPartterns/simpleFactory/ProductB.h
+Product.h
+/Users/bo/CLionProjects/DesignPartterns/simpleFactory/Product.h
+
