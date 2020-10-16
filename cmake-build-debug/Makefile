@@ -144,6 +144,19 @@ helloworld/fast:
 .PHONY : helloworld/fast
 
 #=============================================================================
+# Target rules for targets named product
+
+# Build rule for target.
+product: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 product
+.PHONY : product
+
+# fast build rule for target.
+product/fast:
+	$(MAKE) $(MAKESILENT) -f product/CMakeFiles/product.dir/build.make product/CMakeFiles/product.dir/build
+.PHONY : product/fast
+
+#=============================================================================
 # Target rules for targets named simpleFactory
 
 # Build rule for target.
@@ -155,6 +168,32 @@ simpleFactory: cmake_check_build_system
 simpleFactory/fast:
 	$(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/build
 .PHONY : simpleFactory/fast
+
+#=============================================================================
+# Target rules for targets named factorymethod
+
+# Build rule for target.
+factorymethod: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 factorymethod
+.PHONY : factorymethod
+
+# fast build rule for target.
+factorymethod/fast:
+	$(MAKE) $(MAKESILENT) -f factorymethod/CMakeFiles/factorymethod.dir/build.make factorymethod/CMakeFiles/factorymethod.dir/build
+.PHONY : factorymethod/fast
+
+#=============================================================================
+# Target rules for targets named abstractFactory
+
+# Build rule for target.
+abstractFactory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 abstractFactory
+.PHONY : abstractFactory
+
+# fast build rule for target.
+abstractFactory/fast:
+	$(MAKE) $(MAKESILENT) -f abstractFactory/CMakeFiles/abstractFactory.dir/build.make abstractFactory/CMakeFiles/abstractFactory.dir/build
+.PHONY : abstractFactory/fast
 
 main.o: main.cpp.o
 
@@ -191,7 +230,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... abstractFactory"
+	@echo "... factorymethod"
 	@echo "... helloworld"
+	@echo "... product"
 	@echo "... simpleFactory"
 	@echo "... main.o"
 	@echo "... main.i"

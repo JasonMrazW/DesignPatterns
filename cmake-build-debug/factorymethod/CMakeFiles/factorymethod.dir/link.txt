@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libfactorymethod.a  CMakeFiles/factorymethod.dir/Factory.cpp.o CMakeFiles/factorymethod.dir/FactoryA1.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libfactorymethod.a

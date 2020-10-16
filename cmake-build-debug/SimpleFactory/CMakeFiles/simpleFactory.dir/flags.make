@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/bo/CLionProjects/DesignPatterns/. -I/Users/bo/CLionProjects/DesignPatterns/./SimpleFactory 
+CXX_INCLUDES = -I/Users/bo/CLionProjects/DesignPatterns/. -I/Users/bo/CLionProjects/DesignPatterns/./Product -I/Users/bo/CLionProjects/DesignPatterns/./SimpleFactory -I/Users/bo/CLionProjects/DesignPatterns/./FactoryMethod -I/Users/bo/CLionProjects/DesignPatterns/./AbstractFactory 
 

@@ -6,10 +6,10 @@
 #define DESIGNPARTTERNS_PRODUCT_H
 
 
-class Product {
+class AbstractProductA {
 public:
-    Product();
-    ~Product();
+    AbstractProductA();
+    ~AbstractProductA();
 
     virtual void use() = 0;
 };

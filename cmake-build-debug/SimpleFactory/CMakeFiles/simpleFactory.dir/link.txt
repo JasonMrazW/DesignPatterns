@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libsimpleFactory.a  CMakeFiles/simpleFactory.dir/Factory.cpp.o CMakeFiles/simpleFactory.dir/Product.cpp.o CMakeFiles/simpleFactory.dir/ProductA.cpp.o CMakeFiles/simpleFactory.dir/ProductB.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libsimpleFactory.a  CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.o
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libsimpleFactory.a

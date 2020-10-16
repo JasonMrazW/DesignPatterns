@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libproduct.a  CMakeFiles/product.dir/AbstractProductA.cpp.o CMakeFiles/product.dir/AbstractProductC.cpp.o CMakeFiles/product.dir/ProductA1.cpp.o CMakeFiles/product.dir/ProductA2.cpp.o CMakeFiles/product.dir/ProductC1.cpp.o CMakeFiles/product.dir/ProductC2.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libproduct.a

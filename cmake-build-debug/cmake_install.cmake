@@ -34,7 +34,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/product/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/factorymethod/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/abstractFactory/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

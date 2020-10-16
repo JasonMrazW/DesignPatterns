@@ -99,7 +99,10 @@ helloworld_EXTERNAL_OBJECTS =
 
 helloworld: CMakeFiles/helloworld.dir/main.cpp.o
 helloworld: CMakeFiles/helloworld.dir/build.make
+helloworld: product/libproduct.a
 helloworld: simpleFactory/libsimpleFactory.a
+helloworld: factorymethod/libfactorymethod.a
+helloworld: abstractFactory/libabstractFactory.a
 helloworld: CMakeFiles/helloworld.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable helloworld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/helloworld.dir/link.txt --verbose=$(VERBOSE)

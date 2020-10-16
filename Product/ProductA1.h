@@ -4,12 +4,12 @@
 
 #ifndef DESIGNPARTTERNS_PRODUCTA_H
 #define DESIGNPARTTERNS_PRODUCTA_H
-#include "Product.h"
+#include "AbstractProductA.h"
 
-class ProductA : public Product{
+class ProductA1 : public AbstractProductA{
 public:
-    ProductA();
-    ~ProductA();
+    ProductA1();
+    ~ProductA1();
 
     virtual void use() override;
 };

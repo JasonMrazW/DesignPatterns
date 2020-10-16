@@ -74,20 +74,83 @@ CMAKE_BINARY_DIR = /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/helloworld.dir/all
+all: product/all
 all: simpleFactory/all
+all: factorymethod/all
+all: abstractFactory/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: product/preinstall
 preinstall: simpleFactory/preinstall
+preinstall: factorymethod/preinstall
+preinstall: abstractFactory/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/helloworld.dir/clean
+clean: product/clean
 clean: simpleFactory/clean
+clean: factorymethod/clean
+clean: abstractFactory/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory abstractFactory
+
+# Recursive "all" directory target.
+abstractFactory/all: abstractFactory/CMakeFiles/abstractFactory.dir/all
+
+.PHONY : abstractFactory/all
+
+# Recursive "preinstall" directory target.
+abstractFactory/preinstall:
+
+.PHONY : abstractFactory/preinstall
+
+# Recursive "clean" directory target.
+abstractFactory/clean: abstractFactory/CMakeFiles/abstractFactory.dir/clean
+
+.PHONY : abstractFactory/clean
+
+#=============================================================================
+# Directory level rules for directory factorymethod
+
+# Recursive "all" directory target.
+factorymethod/all: factorymethod/CMakeFiles/factorymethod.dir/all
+
+.PHONY : factorymethod/all
+
+# Recursive "preinstall" directory target.
+factorymethod/preinstall:
+
+.PHONY : factorymethod/preinstall
+
+# Recursive "clean" directory target.
+factorymethod/clean: factorymethod/CMakeFiles/factorymethod.dir/clean
+
+.PHONY : factorymethod/clean
+
+#=============================================================================
+# Directory level rules for directory product
+
+# Recursive "all" directory target.
+product/all: product/CMakeFiles/product.dir/all
+
+.PHONY : product/all
+
+# Recursive "preinstall" directory target.
+product/preinstall:
+
+.PHONY : product/preinstall
+
+# Recursive "clean" directory target.
+product/clean: product/CMakeFiles/product.dir/clean
+
+.PHONY : product/clean
 
 #=============================================================================
 # Directory level rules for directory simpleFactory
@@ -111,15 +174,18 @@ simpleFactory/clean: simpleFactory/CMakeFiles/simpleFactory.dir/clean
 # Target rules for target CMakeFiles/helloworld.dir
 
 # All Build rule for target.
+CMakeFiles/helloworld.dir/all: product/CMakeFiles/product.dir/all
 CMakeFiles/helloworld.dir/all: simpleFactory/CMakeFiles/simpleFactory.dir/all
+CMakeFiles/helloworld.dir/all: factorymethod/CMakeFiles/factorymethod.dir/all
+CMakeFiles/helloworld.dir/all: abstractFactory/CMakeFiles/abstractFactory.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target helloworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target helloworld"
 .PHONY : CMakeFiles/helloworld.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/helloworld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/helloworld.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/helloworld.dir/rule
@@ -135,18 +201,45 @@ CMakeFiles/helloworld.dir/clean:
 .PHONY : CMakeFiles/helloworld.dir/clean
 
 #=============================================================================
+# Target rules for target product/CMakeFiles/product.dir
+
+# All Build rule for target.
+product/CMakeFiles/product.dir/all:
+	$(MAKE) $(MAKESILENT) -f product/CMakeFiles/product.dir/build.make product/CMakeFiles/product.dir/depend
+	$(MAKE) $(MAKESILENT) -f product/CMakeFiles/product.dir/build.make product/CMakeFiles/product.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=10,11,12,13,14,15,16 "Built target product"
+.PHONY : product/CMakeFiles/product.dir/all
+
+# Build rule for subdir invocation for target.
+product/CMakeFiles/product.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 product/CMakeFiles/product.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 0
+.PHONY : product/CMakeFiles/product.dir/rule
+
+# Convenience name for target.
+product: product/CMakeFiles/product.dir/rule
+
+.PHONY : product
+
+# clean rule for target.
+product/CMakeFiles/product.dir/clean:
+	$(MAKE) $(MAKESILENT) -f product/CMakeFiles/product.dir/build.make product/CMakeFiles/product.dir/clean
+.PHONY : product/CMakeFiles/product.dir/clean
+
+#=============================================================================
 # Target rules for target simpleFactory/CMakeFiles/simpleFactory.dir
 
 # All Build rule for target.
 simpleFactory/CMakeFiles/simpleFactory.dir/all:
 	$(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/depend
 	$(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7 "Built target simpleFactory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target simpleFactory"
 .PHONY : simpleFactory/CMakeFiles/simpleFactory.dir/all
 
 # Build rule for subdir invocation for target.
 simpleFactory/CMakeFiles/simpleFactory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simpleFactory/CMakeFiles/simpleFactory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 0
 .PHONY : simpleFactory/CMakeFiles/simpleFactory.dir/rule
@@ -160,6 +253,60 @@ simpleFactory: simpleFactory/CMakeFiles/simpleFactory.dir/rule
 simpleFactory/CMakeFiles/simpleFactory.dir/clean:
 	$(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/clean
 .PHONY : simpleFactory/CMakeFiles/simpleFactory.dir/clean
+
+#=============================================================================
+# Target rules for target factorymethod/CMakeFiles/factorymethod.dir
+
+# All Build rule for target.
+factorymethod/CMakeFiles/factorymethod.dir/all:
+	$(MAKE) $(MAKESILENT) -f factorymethod/CMakeFiles/factorymethod.dir/build.make factorymethod/CMakeFiles/factorymethod.dir/depend
+	$(MAKE) $(MAKESILENT) -f factorymethod/CMakeFiles/factorymethod.dir/build.make factorymethod/CMakeFiles/factorymethod.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target factorymethod"
+.PHONY : factorymethod/CMakeFiles/factorymethod.dir/all
+
+# Build rule for subdir invocation for target.
+factorymethod/CMakeFiles/factorymethod.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 factorymethod/CMakeFiles/factorymethod.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 0
+.PHONY : factorymethod/CMakeFiles/factorymethod.dir/rule
+
+# Convenience name for target.
+factorymethod: factorymethod/CMakeFiles/factorymethod.dir/rule
+
+.PHONY : factorymethod
+
+# clean rule for target.
+factorymethod/CMakeFiles/factorymethod.dir/clean:
+	$(MAKE) $(MAKESILENT) -f factorymethod/CMakeFiles/factorymethod.dir/build.make factorymethod/CMakeFiles/factorymethod.dir/clean
+.PHONY : factorymethod/CMakeFiles/factorymethod.dir/clean
+
+#=============================================================================
+# Target rules for target abstractFactory/CMakeFiles/abstractFactory.dir
+
+# All Build rule for target.
+abstractFactory/CMakeFiles/abstractFactory.dir/all:
+	$(MAKE) $(MAKESILENT) -f abstractFactory/CMakeFiles/abstractFactory.dir/build.make abstractFactory/CMakeFiles/abstractFactory.dir/depend
+	$(MAKE) $(MAKESILENT) -f abstractFactory/CMakeFiles/abstractFactory.dir/build.make abstractFactory/CMakeFiles/abstractFactory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target abstractFactory"
+.PHONY : abstractFactory/CMakeFiles/abstractFactory.dir/all
+
+# Build rule for subdir invocation for target.
+abstractFactory/CMakeFiles/abstractFactory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 abstractFactory/CMakeFiles/abstractFactory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles 0
+.PHONY : abstractFactory/CMakeFiles/abstractFactory.dir/rule
+
+# Convenience name for target.
+abstractFactory: abstractFactory/CMakeFiles/abstractFactory.dir/rule
+
+.PHONY : abstractFactory
+
+# clean rule for target.
+abstractFactory/CMakeFiles/abstractFactory.dir/clean:
+	$(MAKE) $(MAKESILENT) -f abstractFactory/CMakeFiles/abstractFactory.dir/build.make abstractFactory/CMakeFiles/abstractFactory.dir/clean
+.PHONY : abstractFactory/CMakeFiles/abstractFactory.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

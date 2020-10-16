@@ -145,113 +145,32 @@ simpleFactory/fast:
 	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/build
 .PHONY : simpleFactory/fast
 
-Factory.o: Factory.cpp.o
+SimpleFactory.o: SimpleFactory.cpp.o
 
-.PHONY : Factory.o
-
-# target to build an object file
-Factory.cpp.o:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/Factory.cpp.o
-.PHONY : Factory.cpp.o
-
-Factory.i: Factory.cpp.i
-
-.PHONY : Factory.i
-
-# target to preprocess a source file
-Factory.cpp.i:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/Factory.cpp.i
-.PHONY : Factory.cpp.i
-
-Factory.s: Factory.cpp.s
-
-.PHONY : Factory.s
-
-# target to generate assembly for a file
-Factory.cpp.s:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/Factory.cpp.s
-.PHONY : Factory.cpp.s
-
-Product.o: Product.cpp.o
-
-.PHONY : Product.o
+.PHONY : SimpleFactory.o
 
 # target to build an object file
-Product.cpp.o:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/Product.cpp.o
-.PHONY : Product.cpp.o
+SimpleFactory.cpp.o:
+	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.o
+.PHONY : SimpleFactory.cpp.o
 
-Product.i: Product.cpp.i
+SimpleFactory.i: SimpleFactory.cpp.i
 
-.PHONY : Product.i
-
-# target to preprocess a source file
-Product.cpp.i:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/Product.cpp.i
-.PHONY : Product.cpp.i
-
-Product.s: Product.cpp.s
-
-.PHONY : Product.s
-
-# target to generate assembly for a file
-Product.cpp.s:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/Product.cpp.s
-.PHONY : Product.cpp.s
-
-ProductA.o: ProductA.cpp.o
-
-.PHONY : ProductA.o
-
-# target to build an object file
-ProductA.cpp.o:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/ProductA.cpp.o
-.PHONY : ProductA.cpp.o
-
-ProductA.i: ProductA.cpp.i
-
-.PHONY : ProductA.i
+.PHONY : SimpleFactory.i
 
 # target to preprocess a source file
-ProductA.cpp.i:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/ProductA.cpp.i
-.PHONY : ProductA.cpp.i
+SimpleFactory.cpp.i:
+	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.i
+.PHONY : SimpleFactory.cpp.i
 
-ProductA.s: ProductA.cpp.s
+SimpleFactory.s: SimpleFactory.cpp.s
 
-.PHONY : ProductA.s
-
-# target to generate assembly for a file
-ProductA.cpp.s:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/ProductA.cpp.s
-.PHONY : ProductA.cpp.s
-
-ProductB.o: ProductB.cpp.o
-
-.PHONY : ProductB.o
-
-# target to build an object file
-ProductB.cpp.o:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/ProductB.cpp.o
-.PHONY : ProductB.cpp.o
-
-ProductB.i: ProductB.cpp.i
-
-.PHONY : ProductB.i
-
-# target to preprocess a source file
-ProductB.cpp.i:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/ProductB.cpp.i
-.PHONY : ProductB.cpp.i
-
-ProductB.s: ProductB.cpp.s
-
-.PHONY : ProductB.s
+.PHONY : SimpleFactory.s
 
 # target to generate assembly for a file
-ProductB.cpp.s:
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/ProductB.cpp.s
-.PHONY : ProductB.cpp.s
+SimpleFactory.cpp.s:
+	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleFactory/CMakeFiles/simpleFactory.dir/build.make simpleFactory/CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.s
+.PHONY : SimpleFactory.cpp.s
 
 # Help Target
 help:
@@ -262,18 +181,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... simpleFactory"
-	@echo "... Factory.o"
-	@echo "... Factory.i"
-	@echo "... Factory.s"
-	@echo "... Product.o"
-	@echo "... Product.i"
-	@echo "... Product.s"
-	@echo "... ProductA.o"
-	@echo "... ProductA.i"
-	@echo "... ProductA.s"
-	@echo "... ProductB.o"
-	@echo "... ProductB.i"
-	@echo "... ProductB.s"
+	@echo "... SimpleFactory.o"
+	@echo "... SimpleFactory.i"
+	@echo "... SimpleFactory.s"
 .PHONY : help
 
 

@@ -11,12 +11,18 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
+  ".././Product"
   ".././SimpleFactory"
+  ".././FactoryMethod"
+  ".././AbstractFactory"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/product/CMakeFiles/product.dir/DependInfo.cmake"
   "/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory/CMakeFiles/simpleFactory.dir/DependInfo.cmake"
+  "/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/factorymethod/CMakeFiles/factorymethod.dir/DependInfo.cmake"
+  "/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/abstractFactory/CMakeFiles/abstractFactory.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/simpleFactory.dir/Factory.cpp.o"
-  "CMakeFiles/simpleFactory.dir/Product.cpp.o"
-  "CMakeFiles/simpleFactory.dir/ProductA.cpp.o"
-  "CMakeFiles/simpleFactory.dir/ProductB.cpp.o"
+  "CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.o"
   "libsimpleFactory.a"
   "libsimpleFactory.pdb"
 )

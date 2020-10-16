@@ -4,16 +4,16 @@
 
 #ifndef DESIGNPARTTERNS_FACTORY_H
 #define DESIGNPARTTERNS_FACTORY_H
-#include "Product.h"
+#include "AbstractProductA.h"
 #include <iostream>
 
 
-class Factory {
+class SimpleFactory {
 public:
-    Factory();
-    ~Factory();
+    SimpleFactory();
+    ~SimpleFactory();
 
-    static Product* createProduct(std::string type);
+    static AbstractProductA* createProduct(std::string type);
 };
 
 

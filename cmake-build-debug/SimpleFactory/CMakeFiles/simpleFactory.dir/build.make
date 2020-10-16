@@ -77,75 +77,30 @@ include simpleFactory/CMakeFiles/simpleFactory.dir/progress.make
 # Include the compile flags for this target's objects.
 include simpleFactory/CMakeFiles/simpleFactory.dir/flags.make
 
-simpleFactory/CMakeFiles/simpleFactory.dir/Factory.cpp.o: simpleFactory/CMakeFiles/simpleFactory.dir/flags.make
-simpleFactory/CMakeFiles/simpleFactory.dir/Factory.cpp.o: ../simpleFactory/Factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object simpleFactory/CMakeFiles/simpleFactory.dir/Factory.cpp.o"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleFactory.dir/Factory.cpp.o -c /Users/bo/CLionProjects/DesignPatterns/simpleFactory/Factory.cpp
+simpleFactory/CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.o: simpleFactory/CMakeFiles/simpleFactory.dir/flags.make
+simpleFactory/CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.o: ../simpleFactory/SimpleFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object simpleFactory/CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.o"
+	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.o -c /Users/bo/CLionProjects/DesignPatterns/simpleFactory/SimpleFactory.cpp
 
-simpleFactory/CMakeFiles/simpleFactory.dir/Factory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleFactory.dir/Factory.cpp.i"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bo/CLionProjects/DesignPatterns/simpleFactory/Factory.cpp > CMakeFiles/simpleFactory.dir/Factory.cpp.i
+simpleFactory/CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.i"
+	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bo/CLionProjects/DesignPatterns/simpleFactory/SimpleFactory.cpp > CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.i
 
-simpleFactory/CMakeFiles/simpleFactory.dir/Factory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleFactory.dir/Factory.cpp.s"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bo/CLionProjects/DesignPatterns/simpleFactory/Factory.cpp -o CMakeFiles/simpleFactory.dir/Factory.cpp.s
-
-simpleFactory/CMakeFiles/simpleFactory.dir/Product.cpp.o: simpleFactory/CMakeFiles/simpleFactory.dir/flags.make
-simpleFactory/CMakeFiles/simpleFactory.dir/Product.cpp.o: ../simpleFactory/Product.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object simpleFactory/CMakeFiles/simpleFactory.dir/Product.cpp.o"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleFactory.dir/Product.cpp.o -c /Users/bo/CLionProjects/DesignPatterns/simpleFactory/Product.cpp
-
-simpleFactory/CMakeFiles/simpleFactory.dir/Product.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleFactory.dir/Product.cpp.i"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bo/CLionProjects/DesignPatterns/simpleFactory/Product.cpp > CMakeFiles/simpleFactory.dir/Product.cpp.i
-
-simpleFactory/CMakeFiles/simpleFactory.dir/Product.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleFactory.dir/Product.cpp.s"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bo/CLionProjects/DesignPatterns/simpleFactory/Product.cpp -o CMakeFiles/simpleFactory.dir/Product.cpp.s
-
-simpleFactory/CMakeFiles/simpleFactory.dir/ProductA.cpp.o: simpleFactory/CMakeFiles/simpleFactory.dir/flags.make
-simpleFactory/CMakeFiles/simpleFactory.dir/ProductA.cpp.o: ../simpleFactory/ProductA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object simpleFactory/CMakeFiles/simpleFactory.dir/ProductA.cpp.o"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleFactory.dir/ProductA.cpp.o -c /Users/bo/CLionProjects/DesignPatterns/simpleFactory/ProductA.cpp
-
-simpleFactory/CMakeFiles/simpleFactory.dir/ProductA.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleFactory.dir/ProductA.cpp.i"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bo/CLionProjects/DesignPatterns/simpleFactory/ProductA.cpp > CMakeFiles/simpleFactory.dir/ProductA.cpp.i
-
-simpleFactory/CMakeFiles/simpleFactory.dir/ProductA.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleFactory.dir/ProductA.cpp.s"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bo/CLionProjects/DesignPatterns/simpleFactory/ProductA.cpp -o CMakeFiles/simpleFactory.dir/ProductA.cpp.s
-
-simpleFactory/CMakeFiles/simpleFactory.dir/ProductB.cpp.o: simpleFactory/CMakeFiles/simpleFactory.dir/flags.make
-simpleFactory/CMakeFiles/simpleFactory.dir/ProductB.cpp.o: ../simpleFactory/ProductB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object simpleFactory/CMakeFiles/simpleFactory.dir/ProductB.cpp.o"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simpleFactory.dir/ProductB.cpp.o -c /Users/bo/CLionProjects/DesignPatterns/simpleFactory/ProductB.cpp
-
-simpleFactory/CMakeFiles/simpleFactory.dir/ProductB.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpleFactory.dir/ProductB.cpp.i"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bo/CLionProjects/DesignPatterns/simpleFactory/ProductB.cpp > CMakeFiles/simpleFactory.dir/ProductB.cpp.i
-
-simpleFactory/CMakeFiles/simpleFactory.dir/ProductB.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleFactory.dir/ProductB.cpp.s"
-	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bo/CLionProjects/DesignPatterns/simpleFactory/ProductB.cpp -o CMakeFiles/simpleFactory.dir/ProductB.cpp.s
+simpleFactory/CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.s"
+	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bo/CLionProjects/DesignPatterns/simpleFactory/SimpleFactory.cpp -o CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.s
 
 # Object files for target simpleFactory
 simpleFactory_OBJECTS = \
-"CMakeFiles/simpleFactory.dir/Factory.cpp.o" \
-"CMakeFiles/simpleFactory.dir/Product.cpp.o" \
-"CMakeFiles/simpleFactory.dir/ProductA.cpp.o" \
-"CMakeFiles/simpleFactory.dir/ProductB.cpp.o"
+"CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.o"
 
 # External object files for target simpleFactory
 simpleFactory_EXTERNAL_OBJECTS =
 
-simpleFactory/libsimpleFactory.a: simpleFactory/CMakeFiles/simpleFactory.dir/Factory.cpp.o
-simpleFactory/libsimpleFactory.a: simpleFactory/CMakeFiles/simpleFactory.dir/Product.cpp.o
-simpleFactory/libsimpleFactory.a: simpleFactory/CMakeFiles/simpleFactory.dir/ProductA.cpp.o
-simpleFactory/libsimpleFactory.a: simpleFactory/CMakeFiles/simpleFactory.dir/ProductB.cpp.o
+simpleFactory/libsimpleFactory.a: simpleFactory/CMakeFiles/simpleFactory.dir/SimpleFactory.cpp.o
 simpleFactory/libsimpleFactory.a: simpleFactory/CMakeFiles/simpleFactory.dir/build.make
 simpleFactory/libsimpleFactory.a: simpleFactory/CMakeFiles/simpleFactory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsimpleFactory.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsimpleFactory.a"
 	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && $(CMAKE_COMMAND) -P CMakeFiles/simpleFactory.dir/cmake_clean_target.cmake
 	cd /Users/bo/CLionProjects/DesignPatterns/cmake-build-debug/simpleFactory && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simpleFactory.dir/link.txt --verbose=$(VERBOSE)
 
